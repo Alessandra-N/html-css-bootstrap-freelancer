@@ -1,0 +1,7 @@
+.dbg {
+    padding: 1rem 0;
+    margin: 0.5rem 0;
+    background-color: chartreuse;
+    height: 20px;
+    border: 2px solid black;
+}
