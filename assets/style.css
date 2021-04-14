@@ -5,15 +5,7 @@
     height: 20px;
     border: 2px solid black;
 }
-.bg_darkblue {
-    background-color: #2c3e50;
-}
-.txt_darkblue {
-    color: #2c3e50;
-}
-.bg_acqua {
-    background-color: #1abc9c;
-}
+
 h1 {
     font-weight: 600;
     font-size: 4rem
@@ -22,6 +14,9 @@ h1 {
 h2 {
     font-size: 3rem;
     font-weight: 600;
+}
+p {
+    font-size: 1.3rem;
 }
 
 nav li {
@@ -32,17 +27,41 @@ nav li {
     height: auto;
 }
 
+.about i {
+    font-size: 2rem;
+}
+/* Blue lines */
 .blueline {
     width: 11rem;
     height: 3px;
     border-radius: 10px;
 }
-#hamburger {
-    color: white;
+.about .blueline {
+    width: 8rem;
 }
+/* /END/ Blue lines */
+
+/* Buttons */
+.d_btn {
+    font-size: 1.3rem;
+}
+/* /END/ buttons */
+
+/* CSS Utilities */
+.bg_darkblue {
+    background-color: #2c3e50;
+}
+.bg_acqua {
+    background-color: #1abc9c;
+}
+.txt_darkblue {
+    color: #2c3e50;
+}
+/* /END/ CSS utilities */
 
 @media screen and (max-width: 575px) {
-    h1 {
+    h1, 
+    h2 {
         font-size: 1.8rem;
     }
     h3 {
@@ -50,6 +69,9 @@ nav li {
     }
     .blueline {
         width: 3.8rem;
+    }
+    .about .blueline {
+        width: 4rem;
     }
 }
 
@@ -63,6 +85,9 @@ nav li {
     .blueline {
         width: 5.8rem;
     }
+    .about .blueline {
+        width: 6rem;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -74,5 +99,8 @@ nav li {
     }
     .blueline {
         width: 7.5rem;
+    }
+    .about .blueline {
+        width: 5rem;
     }
 }
