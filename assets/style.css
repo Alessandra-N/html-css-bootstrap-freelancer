@@ -30,19 +30,33 @@ nav li {
 .about i {
     font-size: 2rem;
 }
+
+.form-control {
+    padding-left: 0;
+    border: 0;
+    border-radius: 0;
+    padding: 1.5rem 0;
+}
+.form-control::placeholder {
+    color: #2c3e50;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
 /* Blue lines */
 .blueline {
     width: 11rem;
-    height: 3px;
+    height: 4px;
     border-radius: 10px;
 }
-.about .blueline {
+.about .blueline,
+.form .blueline  {
     width: 8rem;
 }
 /* /END/ Blue lines */
 
 /* Buttons */
-.d_btn {
+.d_btn,
+.f_btn {
     font-size: 1.3rem;
 }
 /* /END/ buttons */
@@ -85,7 +99,8 @@ nav li {
     .blueline {
         width: 5.8rem;
     }
-    .about .blueline {
+    .about .blueline,
+    .form .blueline {
         width: 6rem;
     }
 }
@@ -100,7 +115,9 @@ nav li {
     .blueline {
         width: 7.5rem;
     }
-    .about .blueline {
+    .about .blueline,
+    .form .blueline {
         width: 5rem;
     }
+    .form .blueline
 }
